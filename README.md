@@ -1,12 +1,12 @@
-# pytemplate
+# pkgtemplate
 
-A template for Python projects.
+A template for PyPI projects.
 
-## Development
+## Contributing
 
-```shell
-python3 -m venv venv
-. venv/bin/activate
+```sh
 pip install -r requirements-dev.txt
 pre-commit install
 ```
+
+See Makefile for build process.
